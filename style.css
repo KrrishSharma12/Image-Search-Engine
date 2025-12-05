@@ -85,8 +85,18 @@ form button {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media(max-width:550px){
+@media(max-width:650px){
     #search-result{
         grid-template-columns: 1fr;
     }
+}
+@media(max-width:450px){
+    form{
+ 
+        margin-left: 0px;
+    }
+    #search-result img{
+        margin: auto;
+    }
+  
 }
