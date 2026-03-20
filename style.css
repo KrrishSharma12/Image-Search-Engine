@@ -102,12 +102,14 @@ form button {
 
     form input {
         width: 75%;
-        font-size: medium;
+        font-size: small;
         border-radius: 5px;
+        padding: 10px;
     }
 
     #search-result img {
         margin: auto;
     }
+   
 
 }
